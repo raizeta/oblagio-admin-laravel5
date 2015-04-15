@@ -12,8 +12,7 @@
 				height: 100%;
 				color: #B0BEC5;
 				display: table;
-				font-weight: 100;
-				font-family: 'Lato';
+				
 			}
 
 			.container {
@@ -35,6 +34,10 @@
 			.quote {
 				font-size: 24px;
 			}
+			.hrefna
+			{
+				color:black;text-decoration:none;font-size:18px;
+			}
 		</style>
 	</head>
 	<body>
@@ -42,6 +45,8 @@
 			<div class="content">
 				<div class="title">Laravel 5</div>
 				<div class="quote">{{ Inspiring::quote() }}</div>
+				<p>&nbsp;</p>
+				<div><a class  = 'hrefna' target="_blank" href = '{{ url("/admin/default") }}'>Ini adalah Halaman Utama / Frontend , Klik disini untuk kehalaman backend :)</a></div>
 			</div>
 		</div>
 	</body>
