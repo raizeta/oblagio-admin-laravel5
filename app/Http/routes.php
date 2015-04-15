@@ -19,3 +19,9 @@ Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
 ]);
+
+
+Route::group(array('namespace' => 'admin\controllers'), function() {
+
+   Route::get('admin/default' , 'DefaultController@index');
+});

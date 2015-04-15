@@ -43,7 +43,7 @@
 	<body>
 		<div class="container">
 			<div class="content">
-				<div class="title">Laravel 5</div>
+				<div class="title">Laravel 5 Oblagios!</div>
 				<div class="quote">{{ Inspiring::quote() }}</div>
 				<p>&nbsp;</p>
 				<div><a class  = 'hrefna' target="_blank" href = '{{ url("/admin/default") }}'>Ini adalah Halaman Utama / Frontend , Klik disini untuk kehalaman backend :)</a></div>
